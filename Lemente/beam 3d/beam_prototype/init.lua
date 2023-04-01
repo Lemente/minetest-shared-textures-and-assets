@@ -30,10 +30,10 @@ for i = 1,11 do
 	    drawtype = "mesh",
 		description = "beam piece "..i,
 	    -- Holds the texture for each "material"
-		tiles = {"arch.png"},
+		tiles = {"default_frame.png"},
 
 	    -- Path to the mesh
-	    mesh = i..".obj",
+	    mesh = "beam_"..i..".obj",
 	    groups = {cracky=3,oddly_breakable_by_hand=3,not_in_creative_inventory=0},
 	    paramtype = 'light',paramtype2 = 'facedir',
 	    on_place = function(itemstack, placer, pointed_thing)
