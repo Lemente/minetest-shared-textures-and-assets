@@ -1,5 +1,6 @@
 # Blender v3.2.2 OBJ File: 'minetest - wooden beam set.blend'
 # www.blender.org
+mtllib beam_1.mtl
 o beam_1_Cube.072
 v -0.625000 -0.375000 0.375000
 v 0.625000 -0.375000 0.375000
@@ -75,6 +76,7 @@ vn 0.7071 0.7071 0.0000
 vn -0.7071 -0.7071 0.0000
 vn 0.7071 -0.7071 0.0000
 vn -0.7071 0.7071 0.0000
+usemtl beam
 s off
 f 5/1/1 6/2/1 8/3/1 7/4/1
 f 2/5/2 4/6/2 3/7/2 1/8/2
