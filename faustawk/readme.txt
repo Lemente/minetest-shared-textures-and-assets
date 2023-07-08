@@ -1,0 +1,2 @@
+templates for metal bits & bobs
+the easiest way to use them is adding a multiply layer of the ambient color at 75% opacity overtop followed by a color dodge layer with the highlight color at 15% opacity, but i recommend manually replacing each color region for proper control over hue shift & color depth
